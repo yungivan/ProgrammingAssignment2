@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## two functions that allow caching to happen
 
 ## Write a short comment describing this function
+## a vector that has the list of functions used
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -17,6 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## checks if inverse is cached, if so return the cached value, if not then calculate and cache itd
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
